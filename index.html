@@ -4,78 +4,117 @@
 <html>
 
 <head>
-    <title>Donut Shops Simulator</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
-    <script type="text/javascript" src="donutSshop.js"></script>
-   
     
+    <title>Places I have lived</title>
+   
 </head>
 
 <body>
-    <div id="main_container">
-        <header>
-             <div id="image_top">
-             </div>
-             <div id="header">
-                <h1> Welcome to Sara's Donut Shop Simulator!</h1>
-                <h2>How many donuts to bake per hour/day?</h2>
-             </div>
-        </header>
+    
+    <header>
+       <h1> Welcome to Sara's World</h1>
+    
         
-        <div id="first_p">
-            <p>This simulator is created to help each donut shop predict the amount of donuts they should be producing each day. The simulator has been calculated based on the following information:</p>
+        <article>
+            <h2>Places I have lived</h2>
+            <p>I am lucky enough to have lived in different cities all over world. All had given me great memories and so many wonderful experiences. Here are the list of those places:</p>
+        </article> 
+            <nav>
                 <ul>
-                    <li>The hours of operation of each shop (in this case we use 11 hours as the usual shop hours are 7am-6pm).</li>
-                    <li>A random sample of customers per hour (this is a computer-based calculation).</li>
-                    <li>The average number of donuts purchased per customer (this has been pre-calculated based on the historical information).</li>
+                    <li><a href="#ubon">Ubon Ratchathani, Thailand</a></li>
+                    <li><a href="#bangkok">Bangkok, Thailand</a></li>
+                    <li><a href="#vermont">Vermont, USA</a></li>
+                    <li><a href="#toronto">Toronto, Canada</a></li>
+                    <li><a href="#leeds">Leeds, UK</a></li>
+                    <li><a href="#edinburgh">Edinburgh, Scotland</a></li>
+                    <li><a href="#portland">Portland, USA</a></li>
                 </ul>
-        </div>
-        <div id="drop_box">
-           <p>Please select your shop location below to see the results. If you want to see all locations, please select "All Locations".</p>
-        </div>
+            </nav>
+    </header>   
 
-            <button class="button" id="buttonAll">All Locations</button>
-            <button class="button" id="buttonDTown">Downtown</button>
-            <button class="button" id="buttonCapHill">Capitol Hill</button>
-            <button class="button" id="buttonSLake">South Lake Union</button>
-            <button class="button" id="buttonWWood">Wedgewood</button>
-            <button class="button" id="buttonBallard">Ballard</button>
-            
-            <table border="2" width="700px" height="300px">
-                <thead id="tableHead">
-                    <tr>
-                        <th>Shop Locations</th>
-                        <th>Opening time</th>
-                        <th>Closing time</th>
-                        <th>Min customers/hour</th>
-                        <th>Max customers/hour</th>
-                        <th>Avg donuts/customer</th>
-                        <th>Donuts/Hour</th>
-                        <th>Donuts/Day</th>
-                    </tr>
-                </thead> 
-                <tbody>
-                </tbody>
-            </table>
-            <div id="newInput">   
-                <p>Please enter any changes you want to make here to see new results:</p>
-                
-                    <p class="formName">New minimum customer/hour  <input type='number' id="newMinCustHr"></p>
-                    <p class="formName">New maximum customer/hour  <input type='number' id='newMaxCustHr'></p>
-                    <p class="formName">New average donut/customer <input type='number' id='newAvgDonutsCust'></p>
-                <button id="buttonSubmit">submit</button>
-            </div>      
-                
+    <main>
+        <article>   
+           <section>
+					<a name="ubon"></a>
+					<h3>Ubon Ratchathani, Thailand</h3>
+					<p>I was born in Ubon Ratchathani, Thailand and it is my sweet home town where I had my wonderful childhood full of fond memories. My family lived there until I finished high school. Although we moved to Bangkok afterwards, we still have a house there and my parents visit there often and so does many of my relatives.  Ubon Ratchathani is one of the biggest provinces in Northeastern part of Thailand and it has everything you could ask for from delicious northeastern cuisine, beautiful temples everywhere to unmatched natural attractions. Our family returned there everytime we visited Thailand to see some of my friends and family there.</p>
+					<figure>
+						<img src="https://www.thailandee.com/img/villes/ubon-ratchathani/ubon-ratchathani-wat-ban-na-muang.jpg"/>
+						<figcaption>A replica of the Suphannahong Royal Barge at Wat Ban Na Muang in Ubon Ratchathani, Thailand. Courtesy of Thailanddee.com </figcaption>
+					</figure>
+			</section>
 
-    </div>
-    <div id="footer">
+            <section>
+					<a name="bangkok"></a>
+					<h3>Bangkok, Thailand</h3>
+					<p>After my parents moved to Bangkok, I went to college and finished my BA there. I also worked there for a couple of years before I moved to USA. Bangkok is the capital city of Thailand and it is one of the busiest and most populous city in the world. Big city like Bangkok has taught me many things and really helped me grownd up maturely, both personally and professionally. It is where we spent time the most everytime we go back to Thailand because most of family and friends are there. Bangkok has everything anyone could ask for and it's often called the city that never sleeps. </p>
+					<figure>
+						<img src="http://static.asiawebdirect.com/m/bangkok/portals/bangkok-com/homepage/riverside/pagePropertiesImage/riverside_bangkok.jpg"/>
+						<figcaption>Picture of Bangkok riverside, Thailand. Courtesy of Bangkok.com</figcaption>
+					</figure>
+			</section>
+
+            <section>
+					<a name="vermont"></a>
+					<h3>Vermont, USA</h3>
+					<p>After graduated and worked in Bangkok for a couple of years, I realized I need to explore the world and do something new! I decided to go Vermont USA and stayed with an American host family for a year to learn English and experience American culture. It was such a great decision and I had such wonderful experiences! Within a year I had improved my English skills tremendously. Coming from big city like Bangkok, I truely fell in love with Vermont because of its natural beauty, its peacefulness and most of all the kindness of the Vermontian. I also got to do many things I had never done in my life including skiing, ice-fishing and driving through snow storms! It still remains one of my favorite places to go skiing and one day I wish I could take my kids to visit there together.</p>
+					<figure>
+						<img src="http://www.planetware.com/photos-large/USVT/usa-vermont-stowe.jpg"/>
+						<figcaption>A town of Stowe in Vermont, USA. Courtesy of Planetware.com </figcaption>
+					</figure>
+			</section>	
+
+            <section>
+					<a name="toronto"></a>
+					<h3>Toronto, Canada</h3>
+					<p>During the time I stayed in Vermont I also visited many different cities in USA and Canada. But Toronto is the most special place for me as this is where I met my future husband! We decided to get married and I moved and worked there for almost 7 years. Toronto is the most multicultural city in the world and one of the safest largest city. We still visit there often to visit our friends and my husband's family there.</p>
+					<figure>
+						<img src="https://cdn.pixabay.com/photo/2016/05/31/04/21/toronto-1426205_960_720.jpg"/>
+						<figcaption>CN Tower and sky scrapers buildings in Toronto, Canada. Courtesy of Pixabay.com </figcaption>
+					</figure>
+			</section>	
+
+            <section>
+					<a name="leeds"></a>
+					<h3>Leeds, UK</h3>
+					<p>After living in Toronto for awhile, my husband and I decided to move to UK to further our study and to experience life in Europe. We got accepted into different schools, my school was in Bradford and my husband's school was in York, so we decided to stay in Leeds as it was the middle city between the two cities. Life in UK was very different for us. We got to live like students again and had made many wonderful experiences with new friends from all over the world. After graduated with our master's degrees, we decided to work there for a couple more years until we had our first child. After giving birth to my daughter, I quit my job and became a full time mom.</p>
+					<figure>
+						<img src="http://business.leeds.ac.uk/fileadmin/public/_processed_/csm_Leeds-at-night2-1600x900_42c4d4c197.jpg"/>
+						<figcaption>A town of Leeds, UK. Courtesy of Leeds University Business School </figcaption>
+					</figure>
+			</section>	
+
+            <section>
+					<a name="edinburgh"></a>
+					<h3>Edinburgh, UK</h3>
+					<p>After working in Leeds for 4 years we decided to move to Edinburgh as my husband found a great job opportunity there. We also moved there because we fell in love with the city itself. Edinburgh has such a rich heritage and history and it is such a lovely city. Nothing beats having the famous Edinburgh castle in the middle of city center and it was where we like to take a stroll during the evening with our daughter before going for dinner at some restaurants around there. Beautiful scenary in northern part of Scotland always amazed us and made us felt like we live in a different world. We lived there for 2 years only because of work relocation but Edinburgh still remains our favorite city to live in and we plan to go back and visit there with our kids soon!</p>
+					<figure>
+						<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeIWGwjM1vCun4mZxZbdh8_m2Q1d_UTsrGGWeKgKBIAhsN1mGI1g"/>
+						<figcaption>Calton Hill in City of Edinburgh, UK. Courtesy of Bestlovedhotel.com </figcaption>
+					</figure>
+			</section>	
+
+            <section>
+					<a name="portland"></a>
+					<h3>Portland, USA</h3>
+					<p>After moving and experiencing many different places, we finally found a place called home for us and it is Portland, Oregon! As much as we love living in Europe, North America is where my husband and I believe it is where we belong. With an opportunity to come visit Portland before making decision where we want to relocate, we knew right away that this is where we want to raise our children and grow old together. Our son was born here and we are proud to be called Portlanian. We love everything about Portland, the people, the natural attractions, the diversed cuisines or even the weather.</p>
+					<figure>
+						<img src="https://www.portlandoregon.gov/shared/cfm/slb.cfm?id=471184"/>
+						<figcaption>Image of Mt.Hood and city of Portland, USA. Courtesy of Portlandoregon.gov</figcaption>
+					</figure>
+			</section>	
+    
+        </article>
+    </main>
+    
+    
+    <footer>
                 
-                    &#169; Warissara Nopsittiporn 2015. All Rights Reserved.
+                    &#169; Warissara Nopsittiporn 2017. All Rights Reserved.
                         
-    </div>
+    </footer> 
 
 </body>
 
 </html>
-        
+
